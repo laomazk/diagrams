@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-04T09:59:33.949Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="bxpDt4wVPgVLcg61JVqT" version="16.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-04T10:14:02.293Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="_YQUyM1mblsVpA57mgXK" version="16.1.4" type="github">
   <diagram id="faN0taPs8VOh04qJVFXV" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="7iJCmo3r6MrjGi4SfQx7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7iJCmo3r6MrjGi4SfQx7-3" target="7iJCmo3r6MrjGi4SfQx7-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7iJCmo3r6MrjGi4SfQx7-3" value="接口调用&lt;br&gt;（手动结束清货补贴、工作流经理等获取接口）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7iJCmo3r6MrjGi4SfQx7-3" value="接口调用&lt;br&gt;（手动结束清货补贴、工作流经理等获取接口、导入xlxs）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7iJCmo3r6MrjGi4SfQx7-5" value="工作流回调接口&lt;br&gt;（OnPassed、OnReject、OnRender、OnBeforeAudit、OnAfterAudit、OnError、OnCancel）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -33,9 +33,6 @@
         <mxCell id="7iJCmo3r6MrjGi4SfQx7-7" value="业务数据封装" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7iJCmo3r6MrjGi4SfQx7-11" value="db(sqlserver、redis)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="470" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="7iJCmo3r6MrjGi4SfQx7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7iJCmo3r6MrjGi4SfQx7-12" target="7iJCmo3r6MrjGi4SfQx7-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -46,6 +43,9 @@
         </mxCell>
         <mxCell id="7iJCmo3r6MrjGi4SfQx7-12" value="xxl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="730" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7iJCmo3r6MrjGi4SfQx7-14" value="&lt;span&gt;db(sqlserver、redis)&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="420" y="470" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
